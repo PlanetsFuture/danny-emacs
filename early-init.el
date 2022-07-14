@@ -9,6 +9,9 @@
 
 ;;; Code:
 
+;; No Titlebar
+(add-to-list 'default-frame-alist '(undecorated . t))
+
 ;; Defer garbage collection further back in the startup process
 (setq gc-cons-threshold most-positive-fixnum)
 

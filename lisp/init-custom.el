@@ -13,8 +13,8 @@
   :link '(url-link :tag "Homepage" "https://github.com/PlanetsFuture/danny-emacs"))
 
 (defcustom danny-logo (expand-file-name
-                         (if (display-graphic-p) "logo.png" "banner.txt")
-                         user-emacs-directory)
+                       (if (display-graphic-p) "banner.txt" "banner.txt")
+                       user-emacs-directory)
   "Set Danny logo. nil means official logo."
   :group 'danny
   :type 'string)

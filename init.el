@@ -2,7 +2,7 @@
 
 ;;; Commentary:
 ;;
-;; Danny Emacs - A Fancy and Fast Emacs Configuration.
+;; Danny Emacs
 ;;
 
 
